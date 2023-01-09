@@ -16,17 +16,9 @@ export const kindNames = {
 }
 
 export const relays = [
-  'wss://nostr-pub.wellorder.net',
-  'wss://nostr-verified.wellorder.net',
+  'wss://knostr.neutrine.com:8880',
   'wss://nostr.rocks',
-  'wss://relay.damus.io',
-  'wss://nostr.drss.io',
-  'wss://nostr.bitcoiner.social',
-  'wss://nostr-relay.wlvs.space',
-  'wss://nostr-relay.untethr.me',
-  'wss://expensive-relay.fiatjaf.com',
-  'wss://nostr-relay.freeberty.net',
-  'wss://relay.minds.com/nostr/v1/ws'
+  'wss://relay.damus.io'
 ]
 
 export function nip05toURL(identifier) {
